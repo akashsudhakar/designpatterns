@@ -1,7 +1,7 @@
 package com.challenge.design.builder;
 
 public class ConcreteHouseBuilder implements HouseBuilder {
-    private House house;
+    private final House house;
 
     public ConcreteHouseBuilder() {
         this.house = new House();
